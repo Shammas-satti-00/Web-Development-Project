@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+</head>
+<style>
+    *{
+    box-sizing: border-box;
+    color: white;
+    background-image: linear-gradient(to right,black, rgb(94, 81, 81));
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container
+{ 
+ padding: 5px 20px 15px 20px;
+ border-radius: 4px;
+}
+
+input[type = "text"],
+input[type = "email"],
+input[type = "number"],
+input[type = "password"],
+input[type = "date"],
+select,
+textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+fieldset{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 50%;
+    border-radius: 5px;
+}
+.main_heading{
+    text-align: center;
+}
+
+option{
+    color: black;
+}
+::placeholder{
+color: rgb(168, 154, 154);
+}
+#button{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(gold,black);
+    padding: 12px 20px;
+    border: none;
+    height: 90px;
+    font-size: larger;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    width: 80%;
+    margin-left: 10%;
+    }
+#button:hover{
+    background-image: linear-gradient(rgb(170, 154, 154),rgb(19, 135, 119));
+    font-weight: bolder;
+    color: white;
+    border-radius: 15px;
+}
+img{
+    background: transparent;
+    margin-left: 60%;
+    margin-top: -80%;
+}
+ a button {
+    border: none;
+    
+        outline: none;
+        border-radius: 12px;
+        margin-left: 15px;
+        margin-top: 15px;
+        margin-left: 15px;
+        animation: forwards;
+        transition: ease-out;
+        cursor: pointer;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;  
+        background-image: linear-gradient(black,black);   
+    color: white;
+}
+a button:hover{
+    background-image: linear-gradient(white,white);
+    color: black;
+
+}
+.heading h1{
+    background: gold;
+    padding: .5rem;
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+
+}
+ h1 a{
+
+text-decoration: none;
+color: white;
+font-size: 25px;
+font-weight: bold;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-image: linear-gradient(black,black);
+}
+ h1 a:hover{
+font-size: 30px;
+color: goldenrod;
+
+}
+h1{
+margin-left: 6px;
+}
+</style>
+<body>
+    <h1><a href="HOMEE.html">E-Libaray</a></h1>
+    <div class="container">
+        <div class="heading">
+            <h1>Payment Details</h1>
+        </div>
+    <form action="">
+        <br><br>
+    <marquee behavior="" direction="">Please fill the these required feilds fully!!</marquee><br><br>
+    <h2 style=" width: 21%; ; border-radius: 10px; color: gold;"> Contact Information</h2> 
+    <p> Name: <br> <input type="text" name="name" id="name" placeholder="Name"></p>
+    <fieldset>
+        <legend> Gender *</legend>
+        <p>    
+        <input type="radio" name="gender" id="Male" required> Male <input type="radio" name="gender" id="Female" required> Female
+    </p>
+    </fieldset>
+    <p>Address: <br> <textarea name="address" id="address" cols="100" rows=2 placeholder="Current Address"></textarea></p>
+    <p>Email: <br> <input type="email" name="email" id="email" required placeholder="Gmail Id"></p>
+    <p>Pincode: <br><input type="number" name="pincode" id="pincode" required placeholder="Number / password"></p>
+    <img src="Pics & data/contactinfosubscribe.png" alt="#" height="17%" width="40%">
+    <br><hr><br>
+    <h2 style=" width: 15%; ; border-radius: 10px; color: gold;  ">Payment Info</h2>
+    <p>Card Type: <br>
+        <select name="cardname" id="cardname" required>
+        <option value="option">Select a Card Type from below</option>
+        <option value="visa">Visa</option>
+        <option value="National">National</option>
+        <option value="HBL">HBL</option>
+        <option value="Naya Pay">Naya Pay</option>
+        <option value="Dubai">Dubai International</option>
+    </select>
+    </p>
+    <p>Card Number: <br> <input type="number" name="Card_number" id="card_number" required placeholder="No of your card"></p>
+    <p>Expiration Dat: <br> <input type="date" name="exp_date" id="exp_date" required></p>
+    <p>CVV: <br> <input type="password" name="cvv" id="cvv" placeholder="password of Card"></p>
+    <img src="Pics & data/Daco_5208321.png" alt="#" height="15%" width="30%"><br>
+    <hr><br><br>
+    <input id="button" type="submit" value="Paynow!!">
+    </form>
+</div>
+</body>
+</html>

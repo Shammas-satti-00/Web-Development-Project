@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<style>
+    *{
+        box-sizing: content-box;
+    }
+    body{
+        background-image: linear-gradient(to right,black, rgb(94, 81, 81));
+    overflow-x: hidden;
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+    }
+#Mainbody{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+#Mainbody h1{
+    text-align: center;
+    color: white;
+
+}
+#part1{
+    height: 800px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 12px;
+    box-shadow: rgb(57, 62, 62) 0px 8px 24px, rgb(122, 137, 137) 0px 16px 56px, rgb(69, 58, 58) 0px 24px 80px;
+
+}
+ select{
+    color: rgb(198, 189, 189);
+}
+select option{
+    color: black;
+}
+input[type = "text"],
+input[type = "email"],
+input[type = "number"],
+input[type = "password"],
+select,
+textarea {
+    background-color: transparent;
+    width: 80%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    margin-top: -10px;
+    padding: 8px;
+    border: 1px solid #666565;
+    border-radius: 5px;
+    margin: 10px;
+}
+fieldset{
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+input[type="submit"]{
+    background-color: #4daea4;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 6px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    width: 80%;
+}
+input[type="submit"]:hover{
+    background-color: goldenrod;
+    color: black;
+
+}
+h2{
+    color: goldenrod;
+    text-align: center; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;  
+}
+h4{
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: light;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 9px;
+}
+ small p{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: flex;
+    width: auto;
+    height: fit-content;
+    background-color: gold;
+}
+nav h1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-top: -10px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav h1 a:hover{
+    border: 2px solid goldenrod;
+    color: black;
+    font-style: italic;
+    
+}
+nav h1{
+    margin-left: 6px;
+}
+ul{
+    list-style: none;
+    display: flex; 
+    width: auto;
+    margin-left: 850px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li{
+    margin: auto;
+    margin-left: 27px;
+    font-size: large;
+    margin-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    border-bottom: 5px solid black;
+    color: rgb(90, 43, 43);
+}
+#log{
+    border: 1px solid black;
+    background-color: white;
+    outline: none;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    animation: forwards;
+    transition: ease-out;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+#log:hover{
+    background-color: black;
+    color: white;
+}
+#sig{
+    border: none;
+    color: white;
+    background-color: black;
+    outline: none;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    cursor: pointer;
+}
+#sig:hover{
+    background-color: white;
+    color: black;
+}
+#lastp a{
+    color: yellow;
+}
+</style>
+<body>
+    <nav>
+        <h1><a href="HOMEE.html">E-Libaray</a></h1>
+        <ul>
+            <li><a href="About.html">About</a></li>
+            <li><a target="_blank" href="Subscribe.html">Subscribe</a></li>
+            <li><a href="Opinions.html">Opinions</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <a href="Login.html"><button id="log">Log-in</button></a>
+            <a href="Signup.html"><button id="sig">Sign-up</button></a>
+        </ul>
+    </nav>
+    
+    <div id="Mainbody"> 
+        <h1 style="font-size: 70px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Sign-up </h1>
+      <div id="part1"> 
+        <h2>Enter Your Details</h2>
+        <h4>Enter Your Full Name</h4>
+        <input type="text" name="name" id="name" placeholder="Name" required>
+        <h4>Enter Your Role \ Profession</h4>
+        <select name="Role" id="role" required>
+            <option value="0">Select from Below</option>
+            <option value="1">Student</option>
+            <option value="2">Teacher</option>
+            <option value="3">Librarian</option>
+            <option value="4">Scholor</option>
+            <option value="5">Book Readers</option>
+            <option value="6">Prefer Not to Say</option>
+        </select>
+        <h4>Enter your E-Mail</h4>
+        <input type="email" id="mail" placeholder="xxxx@Gmail.com" required>
+        <h4>Enter Your Password</h4>
+        <input type="password" id="password" required>
+        <br><br>
+        <small style="color: white; display: flex; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><input type="checkbox" name="checkbox" id="checkbox"> I agree to <a href="Termofuse.html"> Term & Conditions.</a> </small><br><br>
+        <input type="submit" value="Sign-up" required>
+        <hr>
+       
+        <p id="lastp" style="color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Already have an account<a href="Login.html"> "Log-in"</a></p>
+      </div>
+      
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,466 @@
+body{
+    background-image: linear-gradient(to right,black, rgb(94, 81, 81));
+    overflow-x: hidden;
+}    
+nav{
+    display: flex;
+    
+}
+nav h1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav h1 a:hover{
+    border: 2px solid goldenrod;
+    color: goldenrod;
+    
+}
+h1{
+    margin-left: 6px;
+}
+ul{
+    list-style: none;
+    display: flex; 
+    width: auto;
+    margin-left: 850px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li{
+    margin: auto;
+    margin-left: 30px;
+    font-size: large;
+    margin-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    border-bottom: 5px solid black;
+    color: goldenrod;
+}
+#marquee{
+    height: 35px;
+    width: 100%;
+    background-color: gold;
+    margin-top: 15px;
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#log{
+    border: 1px solid black;
+    background-color: white;
+    outline: none;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    animation: forwards;
+    transition: ease-out;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+#log:hover{
+    background-color: black;
+    color: white;
+}
+#sig{
+    border: none;
+    color: white;
+    background-color: black;
+    outline: none;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    cursor: pointer;
+}
+#sig:hover{
+    background-color: white;
+    color: black;
+}
+#backimage{
+    background-image: url("banner-2022.webp");
+    background-size: cover;
+    margin-top: 0px;
+    height: 600px;
+    width: auto;   
+}
+#backimageheading{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 180px;
+    font-family:sans-serif;
+    font: xx-large;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 700;
+}
+#Searchbar{
+    transition: all;
+    position: relative;
+    top: 190px;
+    left: 530px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 430px;
+    height: 40px;
+    font-size: large;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#line{
+    transition: all;
+    position: relative;
+    top: 210px;
+    left: 470px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+}
+#logos{
+    display: inline-flex;
+}
+.logo1{
+margin-top: 30px;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+color: white;
+width: 250px;
+margin-left: 70px;
+text-align: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#AH1{
+text-align: center;
+margin-top: 10px;
+font-weight: 700;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+}
+#Articles{
+display: flex;
+color: white;
+margin-top: 10px;
+width: 100%;
+height: 50%;
+margin-left: 140px;
+border: 1px;
+font-weight: lighter;
+border-radius: 10px;
+}
+#lineone{
+height: 80%;
+width: 50%;
+}
+#linetwo{
+    height: 80%;
+    width: 50%;
+    }
+.Article1{
+margin-left: 18%;
+margin-top: 10px;
+}
+.Article1 a{
+text-decoration: none;
+color: white;
+}
+#Article2{
+width: 50%;
+display: inline-block;
+height: 30%;
+margin-left: 30px;
+margin-top: 0px;
+}
+#Article2 a{
+text-decoration: none;
+color: white;
+}
+#box{
+border: none;
+background-color: goldenrod;
+height: 550px;
+width: 80%;
+border-radius: 10px;
+margin: auto;
+}
+#boxtext{
+border:  none;
+margin:auto;
+height: 90%;
+width: 60%;
+margin-top: -500px;
+margin-left: 500px;
+font-size: larger;
+}
+#boxbutton{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: large;
+background-color: black; 
+color: white;
+border-radius: 10px; 
+height: 40px;
+cursor: pointer;
+margin-left: 230px;
+margin-bottom: 300px;
+transition: step-start;
+animation: forwards;
+}
+#boxbutton:hover{
+background-color: white;
+color: black;
+}
+#boxbutton a:hover{
+color: black;
+}
+#books{
+border: none;
+
+}
+#books h3{
+color: white;
+font-size: medium;
+margin-top: 5px;
+font-weight: lighter;
+}
+#books h3:hover{
+color: black !important;
+font-weight: bold;
+}
+.bookcontent1 {
+margin-left: 50px;
+border: 1px solid black;
+height: 110px;
+width: 170px;
+margin-top: 20px;
+padding: 10px;
+padding-bottom: 10px;
+display: inline-flex;
+overflow: hidden;
+border-radius: 10px;
+color: white;
+background-color: transparent;
+}
+.bookcontent1:hover{
+background-color: goldenrod;
+}
+.bookcontent1 img{
+height: 40px;
+width: 60px;
+margin-top: -20px;
+display: block;
+text-align: center;
+margin-left: 30px;
+}
+
+.bookcontent1 a{
+text-decoration: none;
+text-align: center;
+color: white;
+position: relative;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: 30px;
+margin-left: 15px;
+}
+#boxthree{
+border: 2px solid black;
+background-color: gold;
+border-radius: 10px;
+height: 550px;
+width: 70%;
+display: flex;
+margin: auto;
+}
+#boxthreecontent{
+border: none;
+width: 50%;
+height: 500px;
+border-radius: 10px;
+}
+#boxthreepic{
+border: none;
+width: 50%;
+height: 550px;
+border-radius: 10px;
+margin-top: 80px;
+margin-left: 10px;
+background-color: transparent;
+}
+#boxthreecontent button{
+margin-left: 110px;
+margin-top: 90px;
+border-radius: 7px;
+height: 40px;
+width: 200px;
+cursor: pointer;
+color: white;
+font-size: larger;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border: none;
+background-color: black ;
+}
+#boxthreecontent button:hover{
+background-color: white;
+color: black;
+}
+footer{
+    background-image: linear-gradient(rgb(30, 26, 26),rgb(45, 16, 16));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer a button{
+border: none;
+outline: none;
+border-radius: 12px;
+position: relative;
+text-align: center;
+margin-top: 0px;
+margin-left: 45%;
+cursor: pointer;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: large;  
+
+}
+footer a button:hover{
+background-color: black;
+color: white;
+}
+
+#boxtwo{
+margin-left: 220px;
+display: inline-flex;
+height: 100px;
+width: 83%;
+box-shadow: 50px;
+}
+.footcontent{
+margin-top: 30px;
+margin: auto;
+border-radius: 10px;
+margin-left: -70px;
+color: white;
+border: none;
+box-shadow: 10px;
+}
+.footcontent a{
+text-decoration: none;
+cursor: pointer;
+}
+.footcontent button{
+background-color: transparent;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+color: white;
+margin-left: 100px;
+border-radius: 10px;
+cursor: pointer;
+height: 80px;
+width: 80px;
+}
+#boxtwo .footcontent button:hover {
+background-color: goldenrod !important;
+color: black !important;
+font-weight: bolder;
+}
+#foot{
+margin-top: 50px;
+border: 4px solid black;
+height: 750px;
+width: 100%;
+border-radius: 15px;
+background-color: transparent;
+}
+
+#foottwo {
+display: flex;
+padding: 10px;
+border: none;
+height: 55%;
+border-radius: 10px;
+width: 100%;
+background-color: transparent;
+margin-left: 10%;
+}
+
+#fc1, #fc2, #fc3, #fc4 {
+width: 20%;
+margin-left: 10px; 
+color: white;
+border: none;
+display: flex;
+flex-direction: column; 
+align-items: center; 
+}
+
+#fc1 h3, #fc2 h3, #fc3 h3, #fc4 h3 {
+color: white;
+margin-bottom: 10px; 
+margin-right: 100px;
+font-size: xx-large;
+font-weight: light;
+}
+#fc1 ol, #fc2 ol, #fc3 ol, #fc4 ol {
+list-style: circle; 
+text-decoration: none;
+margin-top: 30px;
+padding: 0; 
+margin: 0; 
+display: flex; 
+margin-right: 150px;
+color: white;
+flex-direction: column; ;
+}
+#fc1 ol li, #fc3 ol li, #fc4 ol li {
+margin-bottom: 5px; 
+margin-top: 15px;
+color: white;
+} 
+#fc2 ol li{
+    margin-left: 20px;
+    margin-bottom: 5px; 
+    margin-top: 15px;
+}
+#fc1 ol li a, #fc2 ol li a, #fc3 ol li a, #fc4 ol li a{
+color: gold;
+font-size: large;
+}
+
+#fc1 ol li a:hover{
+color: white;
+border: 2px solid white;
+border-radius: 4px;
+background-color: black;
+border-bottom: 5px solid white;
+}
+#fc2 ol li a:hover{
+color: white;
+border: 2px solid white;
+border-radius: 4px;
+background-color: black;
+border-bottom: 5px solid white;
+}
+#fc3 ol li a:hover{
+color: white;
+border: 2px solid white;
+border-radius: 4px;
+background-color: black;
+border-bottom: 5px solid white;
+}
+#fc4 ol li a:hover{
+color: white;
+border: 2px solid white;
+border-radius: 4px;
+background-color: black;
+border-bottom: 5px solid white;
+}
+#fc5{
+margin-top: -130px;
+}
+#last{
+text-align: justify;
+display: flex;
+margin-left: 50%;
+}

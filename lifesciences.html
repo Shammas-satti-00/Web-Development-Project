@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Sciences</title>
+    <link rel="stylesheet" href="head&foot.css">
+</head>
+<style>
+.slideshow-container {
+  width: 100%;
+    height: 700px;
+    border: transparent;
+    margin: auto;
+}
+.mySlides {
+  display: none;
+  margin-top: 4%;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 10%;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.prev{
+    margin-left: 32%;
+}
+.next {
+  right: 0;
+  margin-right: 37%;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: gold;
+  color: black;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+</style>
+<body>
+         <nav>
+            <h1><a href="HOMEE.html">E-Libaray</a></h1>
+            <ul>
+            <li><a href="About.html">About</a></li>
+            <li><a target="_blank" href="Subscribe.html">Subscribe</a></li>
+            <li><a href="Opinions.html">Opinions</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <a href="Login.html"><button id="log">Log-in</button></a>
+            <a href="Signup.html"><button id="sig">Sign-up</button></a>
+            </ul>
+        </nav>
+
+<div class="slideshow-container">
+
+    <h1 style="font-size: 70px; color: white; text-align: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Explore Our Collection of <span style="color: gold;">Life Sciences Books.</span></h1>
+    <hr  style="color: white; width: 50%; border: 2px solid snow;">
+    <div class="mySlides fade">
+        <img src="Pics & data/Life Sciences/ls1.jpg" style="width: 20%; margin-left: 38%;" >
+    </div>
+      <div class="mySlides fade">
+      <img src="Pics & data/Life Sciences/ls2.jpg" style="width: 20%; margin-left: 38%;">
+     </div>
+    <div class="mySlides fade">
+      <img src="Pics & data/Life Sciences/ls3.jpg" style="width: 20%; margin-left: 38%;">
+    </div>
+    <div class="mySlides fade">
+        <img src="Pics & data/Life Sciences/ls4.jpg" style="width: 20%; margin-left: 38%;">
+      </div>
+      <div class="mySlides fade">
+        <img src="Pics & data/Life Sciences/ls5.jpg" style="width: 20%; margin-left: 38%;">
+      </div>
+      <div class="mySlides fade">
+        <img src="Pics & data/Life Sciences/ls6.jpg" style="width: 20%; margin-left: 38%;">
+      </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+        <footer>
+            <div id="foot"> 
+                <br><br><br>
+                <h3 style="text-align: center; color: white;  font-size: xx-large; font-weight: lighter;">Grow your knowledge</h3>
+                <p style="text-align: center; font-size: large; color: white;">Join thousands of fellow knowledge enthusiasts and subscribe to our weekly newsletter for content alerts, research tips, and more.</p>
+                <a href="Signup.html"><button>Join Now</button></a><br><br><br><br>
+                <hr style="border: 4px solid black;">
+                <div id="foottwo">
+                    <hr style="height: 70%; border-radius: 4px;  border: 5px solid rgb(70, 63, 63); color: white;">
+                         <div id="fc1">
+                        <h3>E-Library</h3>
+                        <ol>
+                            <li><a href="About.html">About Us</a></li>
+                            <li><a href="Contact.html">Contact Us</a></li>
+                            <li><a href="Opinions.html">Opinions</a></li>
+                        </ol>
+                        </div>
+                        <hr style="height: 70%; border-radius: 4px;  border: 5px solid rgb(70, 63, 63); color: white;">
+                        <div id="fc2">
+                        <h3>Learn</h3>
+                        <ol>
+                            <li><a href="#">Reading</a></li>
+                            <li><a href="#">Other Researchers</a></li>
+                            <li><a href="#">Training</a></li>
+                        </ol>
+                             </div>
+                             <hr style="height: 70%; border-radius: 4px;  border: 5px solid rgb(70, 63, 63); color: white;">
+                        <div id="fc3">
+                        <h3>Discover</h3>
+                        <ol>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Around Globe</a></li>
+                            <li><a href="#">Latest Trends</a></li>
+                        </ol>
+                          </div>
+                          <hr style="height: 70%; border-radius: 4px;  border: 5px solid rgb(70, 63, 63); color: white;">
+                        <div id="fc4">
+                        <h3>Explore</h3>
+                        <ol>
+                            <li><a href="Physicss.html">Physics</a></li>
+                            <li><a href="Arts.html">Arts</a></li>
+                            <li><a href="SocailSciences.html">Sciences</a></li>
+                        </ol>
+                        </div>
+                    </div>
+                    <div id="fc5">
+                        <hr style="height: 70%; border-radius: 4px;  border: 5px solid rgb(70, 63, 63); color: white;">
+                         <div id="boxtwo">
+                        <div class="footcontent"><a href="FAQ.html"><button style="color: white;  font-weight: lighter;">FAQ's</button></a></div><hr>
+                        <div class="footcontent"><a href="Termofuse.html"><button style="color: white; font-weight: lighter;">Term of Use</button></a></div><hr>
+                        <div class="footcontent"><a href="PrivacyPolicy.html"><button style="color: white; font-weight: lighter;">Privacy Policy</button></a></div><hr>
+                        <div class="footcontent"><a href="CopyRights.html"><button style="color: white; font-weight: lighter;">Copy Rights</button></a></div>
+                    </div>
+                    
+                 <small id="last">All Rights Reserved - 2023</small>
+                    </div>
+
+            </div>
+        </footer>
+        <script>
+            let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+        </script>
+</body>
+</html>
